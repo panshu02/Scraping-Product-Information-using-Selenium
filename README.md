@@ -1,5 +1,5 @@
 # Scraping-Product-Information-using-Selenium
-**Bonus 1:** An 'Open in Google Colab' button has been added in the Jupyter Notebook, however the last code cell for Bonus 2 for dumping the data into MySQL local server cannot be run on Google Colab.
+**Bonus 1:** An 'Open in Google Colab' button has been added in the Jupyter Notebook, however the last code cell for Bonus 2 for dumping the data into MySQL local server database cannot be run on Google Colab.
 
 To scrape Selenium library is used with Chrome browser driver. The chrome driver is installed and the webdriver instance for chrome with options is intialized. Now, the driver only needs the product URLs to scrape in HTML format. The required data (Title, Price, Image URL, Details) can then be processed using 'Selenium WebElement' methods.
 
