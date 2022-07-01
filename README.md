@@ -7,7 +7,7 @@ The product URLs were present in a google sheets with the following link:
 
 https://docs.google.com/spreadsheets/d/1BZSPhk1LDrx8ytywMHWVpCqbm8URTxTJrIRkD7PnGTM/edit?usp=sharing
 
-Using pandas the sheets is read as a csv file to a dataframe. The URLs are then sent in a loop  to a scraping function 'prod_info' which scrapes the necessary data from the URLs. The data is stored as a list of dictionaries where each element of the list is one URL result. This data list is then dumped into a json file using the json python library.
+Using pandas the sheet is read as a csv file to a dataframe. The URLs are then sent in a loop  to a scraping function 'prod_info' which scrapes the necessary data from the URLs. The data is stored as a list of dictionaries where each element of the list is one URL result. This data list is then dumped into a json file using the json python library.
 
 Time taken to open and extract product information from all pages: **13m 24s**
 
