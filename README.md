@@ -19,13 +19,13 @@ As **Bonus 2**, a dataframe from the data processed is made. After this, using '
 
 **Time taken to scrape URLs in each step of 100**
 
-Time taken to scrape number 0 to 100 URLs = 1.6406074833333333 mins.
-Time taken to scrape number 100 to 200 URLs = 1.59323825 mins.
-Time taken to scrape number 200 to 300 URLs = 1.5118802166666667 mins.
-Time taken to scrape number 300 to 400 URLs = 1.0158563833333334 mins.
-Time taken to scrape number 400 to 500 URLs = 1.1360284500000002 mins.
-Time taken to scrape number 500 to 600 URLs = 1.5215353333333332 mins.
-Time taken to scrape number 600 to 700 URLs = 1.5123404666666667 mins.
-Time taken to scrape number 700 to 800 URLs = 1.01422185 mins.
-Time taken to scrape number 800 to 900 URLs = 1.1787492 mins.
-Time taken to scrape number 900 to 1000 URLs = 1.0440774833333333 mins.
+0 to 100 URLs = 1.6406074833333333 mins.
+100 to 200 URLs = 1.59323825 mins.
+200 to 300 URLs = 1.5118802166666667 mins.
+300 to 400 URLs = 1.0158563833333334 mins.
+400 to 500 URLs = 1.1360284500000002 mins.
+500 to 600 URLs = 1.5215353333333332 mins.
+600 to 700 URLs = 1.5123404666666667 mins.
+700 to 800 URLs = 1.01422185 mins.
+800 to 900 URLs = 1.1787492 mins.
+900 to 1000 URLs = 1.0440774833333333 mins.
