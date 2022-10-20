@@ -1,5 +1,6 @@
 # Scraping-Product-Information-using-Selenium
-**Bonus 1:** An 'Open in Google Colab' button has been added in the Jupyter Notebook, however the last code cell for Bonus 2 for dumping the data into MySQL local server database cannot be run on Google Colab.
+
+An 'Open in Google Colab' button has been added in the Jupyter Notebook, however the last code cell for Bonus 2 for dumping the data into MySQL local server database cannot be run on Google Colab.
 
 To scrape Selenium library is used with Chrome browser driver. The chrome driver is installed and the webdriver instance for chrome with options is intialized. Now, the driver only needs the product URLs to scrape in HTML format. The required data (Title, Price, Image URL, Details) can then be processed using 'Selenium WebElement' methods.
 
@@ -14,7 +15,7 @@ Time taken to open and extract product information from all pages: **13m 11s**
 
 **Important:** This part can only be run in a PC with MySQL server client installed. The code part can be run only using a local python compiler with the correct SQL server credentials.
 
-As **Bonus 2**, a dataframe from the data processed is made. After this, using 'mysql-connector-python' library, a connection with the local MySQL server is made by passing on the server credentials. Using the connection, a cursor is made which can execute and commit SQL commands to the local server. The created dataframe is finally dumped to a table created using an execute statement.
+A dataframe from the data processed is made. After this, using 'mysql-connector-python' library, a connection with the local MySQL server is made by passing on the server credentials. Using the connection, a cursor is made which can execute and commit SQL commands to the local server. The created dataframe is finally dumped to a table created using an execute statement.
 
 
 **Time taken to scrape URLs in each step of 100**
