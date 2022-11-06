@@ -12,9 +12,6 @@ Using pandas the sheet is read as a csv file to a dataframe. The URLs are then s
 
 Time taken to open and extract product information from all pages: **13m 11s**
 
-
-**Important:** This part can only be run in a PC with MySQL server client installed. The code part can be run only using a local python compiler with the correct SQL server credentials.
-
 A dataframe from the data processed is made. After this, using 'mysql-connector-python' library, a connection with the local MySQL server is made by passing on the server credentials. Using the connection, a cursor is made which can execute and commit SQL commands to the local server. The created dataframe is finally dumped to a table created using an execute statement.
 
 
